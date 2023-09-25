@@ -58,8 +58,8 @@ export default function Textform(props) {
             <div className="mb-3">
                 <textarea style={{ color: props.mode === 'white' ? 'black' : 'white', background:props.mode==='white' ?'white':'grey' }} value={text} onChange={handleOnChnage} className="form-control" id="myBox" rows="8"></textarea>
             </div>
-            <button className='btn btn-primary mx-3' onClick={handleUpChange}>Conver to upperCase</button>
-            <button className='btn btn-primary mx-3' onClick={handleLoChange}>Conver to upperCase</button>
+            <button className='btn btn-primary mx-3' onClick={handleUpChange}>Conver to Uppecase</button>
+            <button className='btn btn-primary mx-3' onClick={handleLoChange}>Conver to Lowecase</button>
             <button className='btn btn-primary mx-3' onClick={handleClearChange}>Clear Text</button>
             <button className='btn btn-primary mx-3' onClick={speak}>Speak</button>
             <button className='btn btn-primary mx-3' onClick={copyText}>Copy the Text</button>
